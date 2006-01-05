@@ -1,0 +1,15 @@
+
+	The source files in this distribution are 
+	Copyright (C) 2005, Kiyoshi Aman, and are licensed for
+	use under the same terms as Perl itself.
+
+You need audacious installed to use this package:
+http://audacious-media-player.org
+
+This package provides the following modules:
+
+ Audacious::Remote - Perl interface to the xmms_remote API
+
+ Audacious::Config - Perl interface to the xmms_cfg API
+
+ Audacious - Exports the remote control shell routine

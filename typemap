@@ -1,0 +1,18 @@
+Audacious::Remote	T_PTROBJ
+Audacious::Config	T_PTROBJ
+Audacious::SongChange	T_PTROBJ
+gint		T_IV
+gboolean	T_IV
+gchar *		T_PV
+GList *		T_GLIST
+gchar **	T_GCHAR_LIST
+gfloat		T_IV
+
+INPUT
+
+T_GLIST
+	list = avrv_2glist($arg);
+
+T_GCHAR_LIST
+	list = avrv_2gchar_list($arg);
+
